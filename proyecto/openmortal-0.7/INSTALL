@@ -1,0 +1,39 @@
+WINDOWS USERS
+
+OpenMortal comes with this friendly installer now. Run it, K? :)
+
+LINUX/BSD/MAC OS USERS
+
+So, here's this configure script, right? Yes. Depending on which
+version you downloaded it installs the "base" system with all the
+characters, or just some characters.
+
+If you got the master package, you can choose to disable some of
+the characters with parameters to configure:
+
+  --enable-main           Include main data and binary [default: yes]
+  --enable-characters     Include the first batch of characters [default: yes]
+  --enable-additional     Include the second batch of characters [default: yes]
+  --enable-thirdparty     Include the 3rd party characters [default: yes]
+
+This is intended to help packagers break the master package into smaller
+chunks.
+
+To get the entire list of (mostly useless) configure options, call
+
+   ./configure -help
+
+After configure does it's magic, you go
+
+   make
+   make install
+   openmortal
+
+What to do in case something goes wrong during installation:
+
+   1. Curse me.
+   2. Make sure that perl-devel, SDL-devel, SDL_image-devel, SDL_mixer-devel and
+      freetype2-devel
+   3. Check OpenMortal Bugs tracker on the website.
+   4. File new bug report if no solution is found.
+

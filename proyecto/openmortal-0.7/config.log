@@ -1,0 +1,25 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:598: checking host system type
+configure:619: checking target system type
+configure:637: checking build system type
+configure:692: checking for a BSD compatible install
+configure:745: checking whether build environment is sane
+configure:783: checking whether make sets ${MAKE}
+configure:829: checking for working aclocal-1.4
+configure:842: checking for working autoconf
+configure:855: checking for working automake-1.4
+configure:868: checking for working autoheader
+configure:881: checking for working makeinfo
+configure:906: checking for working const
+configure:960: cc -c   conftest.c 1>&5
+configure:985: checking for c++
+configure:1017: checking whether the C++ compiler (c++  ) works
+configure:1033: c++ -o conftest    conftest.C  1>&5
+configure:1059: checking whether the C++ compiler (c++  ) is a cross-compiler
+configure:1064: checking whether we are using GNU C++
+configure:1073: c++ -E conftest.C
+configure:1092: checking whether c++ accepts -g
+configure:1268: checking for sdl-config
+configure:1303: checking for SDL - version >= 1.2.0
